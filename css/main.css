@@ -1,0 +1,29 @@
+
+div div{
+
+}
+
+.padre{
+	background-color: red;
+	height:200px; 
+	width:200px;
+	position: static;
+}
+
+.hijo{
+	background-color: purple;
+	height:100px; 
+	width:100px;
+	position: relative;
+	left: 50px;
+	top: 50px;
+	 
+
+}
+
+.nieto{
+	background-color: yellow;
+	height:50px; 
+	width:50px;
+	position: absolute;
+}
