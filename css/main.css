@@ -1,29 +1,30 @@
 
+
 div div{
 
 }
 
-.padre{
-	background-color: red;
+.azul{
+	background-color: blue;
 	height:200px; 
 	width:200px;
-	position: static;
+	position: absolute;
 }
 
-.hijo{
-	background-color: purple;
+.verde{
+	background-color: green;
 	height:100px; 
 	width:100px;
-	position: relative;
-	left: 50px;
-	top: 50px;
-	 
+	position: static;
+	 margin-left: 50px;
+	 margin-top: 50px;
 
 }
 
-.nieto{
-	background-color: yellow;
+.negro{
+	background-color: black;
 	height:50px; 
 	width:50px;
+	bottom: 150px;
 	position: absolute;
 }
